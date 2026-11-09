@@ -1,0 +1,33 @@
+{
+  "name": "spraay-pebble-pay",
+  "author": "Plagtech",
+  "version": "1.0.0",
+  "description": "Approve or deny x402 USDC payments on Base from your wrist.",
+  "keywords": ["pebble-app", "x402", "usdc", "base", "payments"],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "Spraay Pay",
+    "uuid": "9b1805aa-80f3-4739-a393-3d449b8fc21d",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": ["aplite", "basalt", "chalk", "diorite", "emery"],
+    "watchapp": {
+      "watchface": false
+    },
+    "capabilities": ["configurable"],
+    "messageKeys": [
+      "PaymentAmount",
+      "PaymentService",
+      "PaymentStatus",
+      "UserDecision",
+      "TxHash",
+      "PaymentUrl",
+      "PaymentId"
+    ],
+    "resources": {
+      "media": []
+    }
+  }
+}

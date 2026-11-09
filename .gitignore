@@ -1,0 +1,6 @@
+build/
+.pebble-sdk/
+node_modules/
+.env
+.DS_Store
+.lock-waf*
